@@ -1,0 +1,29 @@
+1.)	Pengertian Git 
+Git (Group Inclusive Tour) adalah sistem kontrol versi distribusi yang digunakan dalam pengembangan perangkat lunak untuk melacak perubahan dalam kode sumber proyek. Ini adalah perangkat lunak yang sangat populer dan kuat yang diciptakan oleh Linus Torvalds pada tahun 2005. Git memungkinkan pengembang untuk bekerja secara efisien, berkolaborasi dengan tim, dan mengelola kode sumber proyek dengan baik
+Terdapat 2 sistem git, yaitu centralized dan distributed:
+	Git centralized berkerja hanya dengan menggunakan satu server yang berfungsi untuk menyimpan data dari project. Sistem git ini membutuhkan koneksi network untuk dapat mengakses data dari project
+	Git distributed bekerja dengan menyimpan data project di lokal dan juga di server
+2.)	Fitur fitur git
+	Version control : Git menyimpan setiap perubahan yang diubah pada source code, sehingga memungkinkan pengguna untuk memantau dan mengelola code version yang berbeda
+	Git branch : Branch merupakan fitur yang paling sering digunakan dalam version control system. Branch digunakan ketika developer akan menambahkan fitur baru atau memperbaiki bug. Fungsi utama dari branch ialah agar pada saat penambahan fitur baru tidak mengganggu source code utama. Ketika pengerjaan dari fitur baru sudah diselesaikan dan sudah di testing, maka branch feature akan dimerge ke dalam branch master/main
+	Merging : Git memungkinkan pengguna yang telah selesai mendevelop code dan sudah melakukan testing pada branch baru untuk menggabungkan perubahan yang telah dibuat ke branch utama
+	Staging area : Git memiliki staging area, di mana pengguna dapat memilih perubahan mana yang akan di-commit ke repository.
+	Git rebase : Git rebase digunakan untuk menggabungkan atau menggeser commit base.
+	Hooks : Git memiliki hooks, yaitu script yang dijalankan secara otomatis saat terjadi peristiwa tertentu di dalam Git, seperti commit atau push.
+	GUI tools : Git menyediakan GUI tools, seperti GitKraken dan Sourcetree, untuk memudahkan penggunaan Git bagi pengguna yang kurang terbiasa dengan command line
+3.)	Kelebihan git :
+	Dapat mengelola versi kode sumber dengan mudah dan efisien.
+	Dapat melakukan branching dan merging dengan mudah dan aman.
+	Dapat melacak perubahan dan siapa yang membuat perubahan pada source code.
+	Memiliki performa yang cepat dan stabil dalam pengelolaan kode sumber yang besar.
+4.)	Kelemahan git :
+	Memiliki fitur yang kompleks dan terkadang membingungkan bagi pengguna yang kurang berpengalaman.
+	Memerlukan pemahaman yang baik tentang konsep dasar seperti repository, commit, branching, dan merging.
+	Sulit digunakan untuk pengelolaan file biner atau non-teks, seperti gambar atau video
+5.)	Instalasi git
+	Download git pada halaman https://git-scm.com/downloads
+	Pilih sesuai sistem operasi
+	Klik download untuk mulai mengunduh
+	Buka file instalator dan ikuti arahan yg muncul di layar
+	Ketika proses instalasi anda dapat memilih komponen beserta direktori tempat git di install
+	Kemudian veerivikasi git menggunakan terminal dan memberi perintah “git –version” jika git sudah terinstall maka versi git akan ditampilkan
